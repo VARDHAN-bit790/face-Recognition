@@ -23,28 +23,21 @@ To install the necessary Python libraries, use the following commands:
 1. **OpenCV**:
    OpenCV is used for image processing and video capture.
 
-   ```bash
+  
    pip install opencv-python
 NumPy: NumPy is used for numerical operations like distance calculations.
 
-bash
-Copy
+
 pip install numpy
 face_recognition: The face_recognition library is used to detect faces and compare them with known encodings.
 
-bash
-Copy
 pip install face_recognition
 dlib (dependency for face_recognition): In case you face any issues installing face_recognition, install dlib first.
 
-bash
-Copy
 pip install dlib
 pip install face_recognition
 Optional: Full OpenCV functionality:
 
-bash
-Copy
 pip install opencv-contrib-python
 Setup
 Create a folder named Training_images in the project directory.
@@ -65,7 +58,6 @@ Ensure that you have the required images in the Training_images folder.
 Run the script using the following command:
 
 bash
-Copy
 python your_script_name.py
 The program will open the webcam and start recognizing faces. If a face is recognized, the system will:
 
