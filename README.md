@@ -23,7 +23,7 @@ To install the necessary Python libraries, use the following commands:
 1. **OpenCV**:
    OpenCV is used for image processing and video capture.
 
-  
+  bash
    pip install opencv-python
 NumPy: NumPy is used for numerical operations like distance calculations.
 
