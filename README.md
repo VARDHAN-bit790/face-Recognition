@@ -23,22 +23,28 @@ To install the necessary Python libraries, use the following commands:
 1. **OpenCV**:
    OpenCV is used for image processing and video capture.
 
-  bash
    pip install opencv-python
+
+   
 NumPy: NumPy is used for numerical operations like distance calculations.
 
 
 pip install numpy
+
 face_recognition: The face_recognition library is used to detect faces and compare them with known encodings.
 
 pip install face_recognition
+
 dlib (dependency for face_recognition): In case you face any issues installing face_recognition, install dlib first.
 
 pip install dlib
+
 pip install face_recognition
+
 Optional: Full OpenCV functionality:
 
 pip install opencv-contrib-python
+
 Setup
 Create a folder named Training_images in the project directory.
 
